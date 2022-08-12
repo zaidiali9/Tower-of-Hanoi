@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container-fuild p {
+    font-size: 3rem;
+}
+.box {
+    height: 200px;
+}
+.vertical span {
+    margin-top: 100px;
+    padding-bottom: 200px;
+    border: 5px solid greenyellow;
+    align-items: center;
+    width: 40px;
+}
+
+.disk {
+    border-radius: 1rem;
+    z-index: 333;
+}
+
+.disks {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 20px; */
+}
+
+.disk1 {
+    width: 20%;
+    padding: 10px 0px;
+    background-color: red;
+}
+
+.disk2 {
+    width: 30%;
+    padding: 10px 0px;
+    background-color: aqua;
+}
+
+.disk3 {
+    width: 40%;
+    padding: 10px 0px;
+    background-color: blue;
+}
+
+.disk4 {
+    width: 50%;
+    padding: 10px 0px;
+    background-color: violet;
+}
+
+.disk5 {
+    width: 60%;
+    padding: 10px 0px;
+}
+
+.disk6 {
+    width: 70%;
+    padding: 10px 0px;
+}
+
+.disk7 {
+    width: 80%;
+    padding: 10px 0px;
+}
+
+.disk8 {
+    width: 90%;
+    padding: 10px 0px;
+}
+
+.moves {
+    margin-top: 20px;
+    color: white;
+} 
+.headingdiv h1
+{
+    text-align: center;
+    padding: 100px;
+}
+.zig-zag
+{
+    display: flex;
+    width: 90px;
+    height: 45px;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    background-color: greenyellow;
+    border-radius: 50px;
+}
+.flexbox
+{
+    display: flex;
+    width: 1130px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 90px;
+    background-color: white;
+    align-items: center;
+}
+.start
+{
+    margin: 50px;
+    align-content: flex-start;
+    text-decoration: black;
+}
+.start2
+{
+    margin:50px;
+    align-content: center;
+}
+.startbutton
+{
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    background-color: white;
+}
+
+.dropped-item3{
+    min-height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .dropped-item1{
+    min-height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.dropped-item2{
+    min-height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastdiv
+{
+    display: flex;
+    background-color: white;
+    text-decoration: underline double;
+    justify-content: flex-start;
+    width: 90%;
+    height: 13%;
+    margin-top:-10%;
+}
+.clickme
+{
+    display: flex;
+    justify-content: center;
+}
